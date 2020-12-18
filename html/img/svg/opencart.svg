@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="12.97527"
+   width="18"
+   xml:space="preserve"
+   viewBox="0 0 18 12.97527"
+   y="0px"
+   x="0px"
+   id="Слой_1"
+   version="1.1"><metadata
+   id="metadata86447"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs86445" />
+<style
+   id="style86435"
+   type="text/css">
+	.st0{fill:#222222;}
+</style>
+<path
+   style="fill:#222222"
+   id="path86437"
+   d="M 18,3.91167 C 18,3.14841 16.6007,2.79859 12.9753,2.79859 4.4523,2.79859 2.2898,2.44877 0,0 0.9859,1.4629 1.4947,4.19788 10.4947,4.07068 19.8763,3.91167 14.1519,6.48764 12.4982,9.38163 15.4876,6.74205 18,4.96114 18,3.91167 l 0,0 z"
+   class="st0" />
+<path
+   style="fill:#222222"
+   id="path86439"
+   d="m 6.0424,11.70319 c 0,0.69964 -0.5724,1.27208 -1.2721,1.27208 -0.6996,0 -1.3039,-0.57244 -1.3039,-1.27208 0,0 0,0 0,0 0,-0.69965 0.5725,-1.27209 1.3039,-1.27209 0,0 0,0 0,0 0.6997,0 1.2721,0.57244 1.2721,1.27209 z"
+   class="st0" />
+<path
+   style="fill:#222222"
+   id="path86441"
+   d="m 11.894,11.70319 c 0,0.69964 -0.5724,1.27208 -1.2721,1.27208 -0.6996,0 -1.3039,-0.57244 -1.3039,-1.27208 0,0 0,0 0,0 0,-0.69965 0.5725,-1.27209 1.2721,-1.27209 0,0 0,0 0,0 0.7315,0 1.3039,0.57244 1.3039,1.27209 z"
+   class="st0" />
+</svg>

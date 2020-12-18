@@ -1,0 +1,129 @@
+.s-directors
+	padding-bottom: 50px
+
+.directors
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: flex-start
+	justify-content: center
+	margin-left: -17px
+	margin-right: -17px
+	margin-top: 50px
+
+.director
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: flex-end
+	position: relative
+	margin-left: 17px
+	margin-right: 17px
+	width: 100%	
+	margin-bottom: 30px
+	text-align: right
+	img
+		position: absolute
+		top: 0
+		height: 100%
+		left: 0
+		width: 100%
+		object-fit: cover
+	&__info		
+		width: 46%
+		position: relative
+		z-index: 2
+		padding: 40px 25px 43% 0
+		height: 0
+		text-align: left
+	&__name
+		color: #fff
+		+bold
+		font-size: 22px
+		line-height: 1.36
+	&__position
+		color: rgba(#fff, .7)
+		font-size: 13px
+		line-height: 1.2
+		margin-top: 10px
+	&__btn
+		padding: 0 30px
+		position: absolute
+		bottom: 50px
+		left: 0
+
+@media only screen and (max-width : 1199px)	
+
+	.director
+		&__info
+			padding: 25px 25px 43% 0
+		&__name
+			font-size: 20px
+		&__btn
+			bottom: 30px
+
+@media only screen and (max-width : 991px)	
+
+	.directors
+		flex-direction: column
+		margin-left: 0
+		margin-right: 0
+		align-items: center
+
+	.director
+		width: 100%
+		max-width: 600px
+		margin-left: 0
+		margin-right: 0
+		&__name
+			font-size: 22px
+		&__info
+			padding: 40px 25px 43% 0
+			width: 100%
+			text-align: right
+		&__btn
+			left: auto
+			right: 25px
+
+	.s-directors
+		.section-title
+			text-align: center
+
+@media only screen and (max-width : 575px)	
+
+	.director
+		margin-bottom: 20px
+		&__info
+			padding: 20px 20px 43% 0			
+		&__btn
+			padding: 0 10px
+			height: 40px
+			line-height: 38px
+			bottom: 20px
+			right: 20px
+		&__name
+			font-size: 18px
+		&__position
+			font-size: 11px
+			margin-top: 8px	
+
+	.s-directors
+		.section-title
+			text-align: left
+
+@media only screen and (max-width : 375px)	
+
+	.director		
+		&__info
+			padding: 15px 15px 43% 0	
+		&__name
+			font-size: 15px		
+		&__btn
+			right: 15px
+			bottom: 15px
+		&__position
+			margin-top: 5px

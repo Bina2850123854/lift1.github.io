@@ -1,0 +1,86 @@
+.service
+	&-hero
+		background: url('../img/service-hero-bg.png') top center no-repeat		
+		background-size: cover
+		overflow: hidden	
+		padding-top: 300px
+		padding-bottom: 80px
+		&_seo
+			.service-hero__image
+				top: auto
+				bottom: -80px
+				position: absolute
+			.service-hero__info
+				margin-left: 295px
+		&__description
+			margin-top: 15px
+		&__btn
+			margin-top: 30px
+		&-block
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex		
+			align-items: flex-start	
+			position: relative
+		&__image
+			flex-shrink: 0
+			width: 295px
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			position: relative
+			top: 15px	
+	&__seo-text
+		margin-top: 65px
+
+@media only screen and (max-width : 1199px)	
+
+	.service
+		&-hero
+			padding: 80px 0
+			&__container
+				padding-top: 120px
+			&__image
+				top: auto
+			&__description
+				br
+					display: none
+
+@media only screen and (max-width : 767px)	
+
+	.service
+		&-hero
+			padding: 50px 0 40px
+			background-image: none
+			background-color: #f4f4f7
+			&__image
+				width: auto
+				margin-top: 40px
+				order: 1
+			&-block
+				flex-direction: column
+				align-items: center
+			&_seo
+				padding: 50px 0 0
+				.service-hero__info
+					margin-left: 0
+				.service-hero__image
+					position: relative
+					margin-left: auto
+					margin-right: auto
+					bottom: 0
+					order: 1
+					margin-top: 30px
+					margin-bottom: 0
+
+
+@media only screen and (max-width : 575px)	
+
+	.service
+		&-hero
+			&__description
+				font-size: 14px

@@ -1,0 +1,65 @@
+.about
+	&-hero		
+		height: 590px
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: bottom center
+		overflow: hidden	
+		padding-top: 230px		
+		&__container
+			height: 100%
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center	
+			justify-content: space-between
+			position: relative
+			z-index: 2
+		&-block
+			width: 100%
+			max-width: 45%
+			position: relative
+			top: -15px
+			&.format-text
+				color: #fff
+
+@media only screen and (max-width : 1199px)	
+
+	.about
+		&-hero		
+			height: auto
+			padding: 200px 0 80px
+			&-block
+				max-width: 50%
+				top: auto
+
+@media only screen and (max-width : 767px)	
+
+	.about
+		&-hero		
+			padding: 150px 0 50px
+			position: relative
+			&:after
+				position: absolute
+				content: ''
+				display: block
+				top: 0
+				bottom: 0
+				left: 0
+				right: 0
+				background-color: rgba(#000, .15)
+			&-block
+				max-width: 100%
+
+@media only screen and (max-width : 575px)	
+
+	.about
+		&-hero
+			background-position: bottom right 10%			
+			.format-text
+				h1
+					font-size: 32px
+				p
+					font-size: 14px

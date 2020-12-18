@@ -1,0 +1,1334 @@
+header{
+    background: #454545;
+    height: auto;
+}
+.navig-links{
+    padding-top: 15%;
+    display: inline-flex;
+}
+.navig-links__tools{
+    margin-left: 10%;
+}
+.navig-links__pass-lifts{
+    margin-top: 0px;
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    font-feature-settings: 'kern' off;
+    color: #454545;
+    margin-left: 8%;
+    white-space: nowrap;
+}
+.intro-text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: justify;
+    color: #3A3A3A;
+}
+.lift-cards-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.lift-card{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.lift-card__image{
+    margin:23px;
+}
+.lift-card__container{
+    max-width: 830px;
+    width: 100%;
+}
+.lift-card__title{
+    color: #3A3A3A;
+}
+.lift-card__logo{
+    margin-top: -1%;
+}
+.lift-card__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #3A3A3A;
+    margin-top: 1%;
+}
+.lift-card__button{
+    background: #009A9F;
+    box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 45px;
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    width: 134px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.all-review{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+@media (min-width: 1406px) and (max-width: 1600px){
+    .lift-card__container{
+        max-width: 620px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1405px){
+    .navig-links{
+        padding-top: 25%;
+    }
+    .lift-card__container{
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 601px) and (max-width: 1100px){
+    .pricelist{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navig-links{
+        padding-top: 35%;
+    }
+    .lift-cards-wrapper{
+        width: 100%;
+    }
+    .lift-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .lift-card__container{
+        max-width: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .lift-card__title{
+        color: #3A3A3A;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__logo{
+        margin-top: -1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__text{
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .lift-card__button{
+        margin: auto;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px){
+    .pricelist{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricelist{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-text{
+        font-family: TTDrugs;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        color: #3A3A3A;
+    }
+    .navig-links{
+        padding-top: 30%;
+        justify-content: center;
+        width: 100%;
+    }
+    .lift-cards-wrapper{
+        width: 100%;
+    }
+    .lift-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .lift-card__container{
+        max-width: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .lift-card__title{
+        color: #3A3A3A;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__logo{
+        margin-top: -1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__text{
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .lift-card__button{
+        margin: auto;
+    }
+}
+@media (min-width: 301px) and (max-width: 500px){
+    .pricelist{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-text{
+        font-family: TTDrugs;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        color: #3A3A3A;
+    }
+    .navig-links{
+        padding-top: 40%;
+        justify-content: center;
+        width: 100%;
+    }
+    .lift-cards-wrapper{
+        width: 100%;
+    }
+    .lift-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .lift-card__container{
+        max-width: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .lift-card__title{
+        color: #3A3A3A;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__logo{
+        margin-top: -1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lift-card__text{
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .lift-card__button{
+        margin: auto;
+    }
+}
+.objects{
+    height: auto;
+    width: 100%;
+  }
+  .objects__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 200%;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    color: #454545;
+    justify-content: flex-start;
+    margin-top: 6%;
+  }
+  .objects__sliders{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3.3%;
+  }
+  .objects-slider-text--background{
+    background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+    max-width: 975px;
+    width: 100%;
+    height: 470px;
+  }
+  .object-slider-text{
+    max-width: 600px;
+    width: 100%;
+    min-height: 320px;
+    height: 100%;
+    margin-left: 33%;
+    margin-top: 8.5%;
+  }
+  .object-slider-text__item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .object-slider-text__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #FFFFFF;
+    max-width: 280px;
+    width: 100%;
+    margin: auto;
+  }
+  .object-slider-text__date{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 180%;
+    text-align: center;
+    color: #919191;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .object-slider-text__txt{
+    font-family: TTDrugsThin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .object-slider-text__link{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #009A9F;
+    margin-left: 42%;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+  .objects-slider-image{
+  max-width: 986px;
+  height: 600px;
+  }
+  .objects-slider-image__img{
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  }
+  .slick-dots{
+    top: 75%;
+      position: absolute;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+  }
+  #slick-slide10{
+    width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  }
+  #slick-slide11{
+    width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  }
+  #slick-slide12{
+    width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  }
+  #slick-slide13{
+    width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  }
+  #slick-slide14{
+    width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  }
+  #slick-slide10.slick-active, #slick-slide11.slick-active, #slick-slide12.slick-active, #slick-slide13.slick-active, #slick-slide14.slick-active{
+    background: #009A9F;
+  }
+  .object-link{
+    font-family: TTDrugs;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #009A9F;
+  margin-top: 3%;
+  
+  }
+  @media (min-width: 1601px) and (max-width: 1786px){
+    .objects__sliders{
+      width: 100%;
+    max-width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 1410px;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 6%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 1410px;
+    width: 100%;
+    height: 700px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 700px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  @media (min-width: 1401px) and (max-width: 1600px){
+    .objects__sliders{
+      width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 1200px;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 1200px;
+    width: 100%;
+    height: 600px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 700px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  @media (min-width: 1101px) and (max-width: 1400px){
+    .objects__sliders{
+      width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 960px;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 960px;
+    width: 100%;
+    height: 500px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  @media (min-width: 901px) and (max-width: 1100px){
+    .objects__sliders{
+      width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 700px;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 700px;
+    width: 100%;
+    height: 500px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  @media (min-width: 601px) and (max-width: 900px){
+    .objects__title{
+        font-family: TTDrugsBold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 200%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #454545;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    .objects__sliders{
+      width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 100%;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 100%;
+    width: 100%;
+    height: 400px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  @media (min-width: 301px) and (max-width: 600px){
+    .objects__title{
+        font-family: TTDrugsBold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 200%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #454545;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    .objects__sliders{
+      width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 3.3%;
+    }
+    .objects-slider-text--background{
+      background-image: url(/Users/AST/Desktop/media\ max/lift/img/Rectangle\ 20.png);
+      width: 100%;
+    max-width: 100%;
+      height: 470px;
+    }
+    .object-slider-text{
+      width: 100%;
+      min-height: 320px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11%;
+    }
+    .object-slider-text__item{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .object-slider-text__txt{
+      font-family: TTDrugsThin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+    }
+    .objects-slider-image{
+      max-width: 100%;
+    width: 100%;
+    height: 300px;
+    }
+    .objects-slider-image__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    }
+    .slick-dots{
+      top: 65%;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+  }
+  .questions{
+      width: 100%;
+      height: auto;
+      background-image: url(../img/Rectangle\ 126.png);
+      margin-top: 4%;
+  }
+  .questions-text-container{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20%;
+      margin-top: 61px;
+      margin-bottom: 87px;
+  }
+  .questions-text-container__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+  .questions-text-container__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    max-width: 690px;
+    margin-top: 7%;
+  }
+  .questions-form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 61px;
+      margin-bottom: 87px;
+      max-width: 450px;
+  }
+  .question-description{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 55px;
+    background: none;
+  }
+  .question-description::-webkit-input-placeholder{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-left: 5%;
+  }
+  .question-description::-moz-placeholder{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-left: 5%;
+  }
+  .question-description:-moz-placeholder{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-left: 5%;
+  }
+  .question-description:-ms-input-placeholder{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-left: 5%;
+  }
+  .checkbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin-left: 0%;
+    margin-top: 75px;
+  }
+  .checkbox + .checkbox-description::before{
+    content: '';
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    background: none;
+    width: 14px;
+    height: 14px;
+    margin-top: 20px;
+  }
+  .checkbox:checked + .checkbox-description::before{
+    content: '';
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    background: #009A9F;
+    width: 14px;
+    height: 14px;
+    margin-top: 20px;
+  }
+  .checkbox-description{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #FFFFFF;
+  }
+  .questions-form-container__button{
+    background: #009A9F;
+    box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 45px;
+    width: 170px;
+    height: 40px;
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+  .questions-container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      margin-top: 4%;
+  }
+  @media (min-width: 1406px) and (max-width: 1600px){
+    .questions-text-container{
+        margin-left: 0%;
+    }
+    .questions-container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+  }
+  @media (min-width: 1101px) and (max-width: 1405px){
+    .questions-text-container{
+        margin-left: 0%;
+    }
+    .questions-container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+  }
+  @media (min-width: 601px) and (max-width: 1100px){
+    .questions-text-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .questions-container{
+        max-width: 700px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .questions-text-container__text{
+      max-width: 100%;
+      width: 100%;
+      margin-top: 7%;
+      text-align: center;
+    }
+    .questions-form-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 0%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .questions-form-container__button{
+        margin-left: auto;
+      margin-right: auto;
+      }
+  }
+  @media (min-width: 301px) and (max-width: 600px){
+      .questions-text-container__title{
+          text-align: center;
+      }
+    .questions-text-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .questions-container{
+        max-width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .questions-text-container__text{
+      max-width: 100%;
+      width: 100%;
+      margin-top: 7%;
+      text-align: center;
+    }
+    .questions-form-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 0%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .questions-form-container__button{
+        margin-left: auto;
+      margin-right: auto;
+      }
+  }
+  .about-company-container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 13%;
+  }
+  .about-company-item{
+    width:33.3%;
+    min-height: 225px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: -1.5%;
+  }
+  .about-company-item__image{
+    width: 48px;
+    height: auto;
+    padding-top: 45px;
+    margin-left: 54px;
+  }
+  .about-company-item__title{
+  font-family: TTDrugsBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  color: #454545;
+  margin-left: 35%;
+  margin-top: -13.6%;
+  }
+  .about-company-item__text{
+  font-family: TTDrugs;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 178.5%;
+  color: #454545;
+  max-width: 270px;
+  width: 100%;
+  margin-top: 6%;
+  margin-left: 35%;
+  }
+  @media (min-width: 1400px) and (max-width: 1600px){
+    .about-company__item{
+      width:33%;
+        min-height: 310px;
+        height: auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-company-item__image{
+      width: 68px;
+      height: auto;
+      margin-top: 2%;
+      margin-left: auto;
+    margin-right: auto;
+    }
+    .about-company-item__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #454545;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    }
+    .about-company-item__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 178.5%;
+    color: #454545;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1399px){
+    .about-company-item{
+      width:33%;
+        min-height: 280px;
+        height: auto;
+        margin-top: -3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-company-item__image{
+      width: 68px;
+      height: auto;
+      margin-top: 2%;
+      margin-left: auto;
+    margin-right: auto;
+    }
+    .about-company-item__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #454545;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    }
+    .about-company-item__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 178.5%;
+    color: #454545;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1024px){
+    .about-company-container{
+        flex-direction: column;
+    }
+    .about-company-item{
+      width:100%;
+        min-height: 280px;
+        height: auto;
+        margin-top: -3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-company-item:not(:first-child){
+        margin-top: 2%;
+    }
+    .about-company-item__image{
+      width: 68px;
+      height: auto;
+      margin-top: 2%;
+      margin-left: auto;
+    margin-right: auto;
+    }
+    .about-company-item__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #454545;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    }
+    .about-company-item__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 178.5%;
+    color: #454545;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+  }
+  @media (max-width: 599px){
+    .about-company-container{
+        flex-direction: column;
+    }
+    .about-company-item{
+      width:100%;
+        min-height: 280px;
+        height: auto;
+        margin-top: -3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-company-item:not(:first-child){
+        margin-top: 2%;
+    }
+    .about-company-item__image{
+      width: 58px;
+      height: auto;
+      margin-top: 0%;
+      margin-left: auto;
+    margin-right: auto;
+    }
+    .about-company-item__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #454545;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    }
+    .about-company-item__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 178.5%;
+    color: #454545;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+  }

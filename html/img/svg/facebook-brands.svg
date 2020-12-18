@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="16.804029"
+   width="9"
+   version="1.1"
+   id="svg14620"
+   viewBox="0 0 9 16.804029"
+   role="img"
+   class="svg-inline--fa fa-facebook-f fa-w-10"
+   data-icon="facebook-f"
+   data-prefix="fab"
+   focusable="false"
+   aria-hidden="true">
+  <metadata
+     id="metadata14628">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14626" />
+  <path
+     style="fill:#ffffff"
+     id="path14622"
+     d="m 8.410218,9.45227 0.466706,-3.04114 -2.918059,0 0,-1.97348 c 0,-0.832 0.407629,-1.64299 1.714536,-1.64299 L 9,2.79466 9,0.20546 C 9,0.20546 7.796149,0 6.645139,0 4.242032,0 2.671249,1.45657 2.671249,4.09336 l 0,2.31777 -2.671249,0 0,3.04114 2.671249,0 0,7.35176 3.287616,0 0,-7.35176 z" />
+</svg>

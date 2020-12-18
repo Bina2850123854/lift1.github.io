@@ -1,0 +1,69 @@
+.clients
+	margin-top: 65px
+	position: relative
+	margin-right: -30px
+	&__section-description
+		margin-top: 60px
+	&__slider-arrows
+		position: absolute
+		top: 50%
+		margin-top: -9px
+		left: -45px
+		right: -15px
+	&__slide
+		text-align: center	
+
+.client
+	border: 1px solid $border-color
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	justify-content: center
+	width: 296px
+	height: 150px
+	transition: border-color .3s
+	padding: 20px
+	&:hover
+		border-color: $accent-color
+
+.service__clients
+	margin-top: 40px
+
+
+@media only screen and (max-width : 1339px)	
+
+	.clients
+		margin-right: 0		
+		&__slider-arrows
+			left: -15px
+			right: -15px
+
+	.client
+		width: auto
+		margin: 0 15px
+
+@media only screen and (max-width : 767px)	
+
+	.clients		
+		&-slider
+			&__container
+				padding-left: 0
+				padding-right: 0
+				max-width: 100%
+		&__slider-arrows
+			display: none
+
+@media only screen and (max-width : 575px)	
+
+	.clients
+		margin-top: 50px
+		&__section-description	
+			text-align: left
+			font-size: 14px		
+
+	.client
+		margin: 0 5px
+		height: 100px

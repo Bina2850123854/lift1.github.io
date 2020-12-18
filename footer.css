@@ -1,0 +1,472 @@
+@charset "UTF-8";
+.container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+@media only screen and (max-width: 1509px) {
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding: 0 0px;
+  }
+}
+@font-face {
+    font-family: TTDrugsBold;
+    src: url(/Users/AST/Desktop/media\ max/lift/fonts/TTDrugs-Bold.ttf);
+  }
+  @font-face {
+    font-family: TTDrugsBoldest;
+    src: url(/Users/AST/Desktop/media\ max/lift/fonts/TTDrugs-Black.ttf);
+  }
+  @font-face {
+    font-family: TTDrugsThin;
+    src: url(/Users/AST/Desktop/media\ max/lift/fonts/TTDrugs-Thin.ttf);
+  }
+  @font-face {
+    font-family: TTDrugs;
+    src: url(/Users/AST/Desktop/media\ max/lift/fonts/TTDrugs-Regular.ttf);
+  }
+  @font-face {
+    font-family: Kudriashov;
+    src: url(/Users/AST/Desktop/media\ max/lift/fonts/7287.ttf);
+  }
+  .main-footer{
+      width: 100%;
+      min-height: 370px;
+      height: 100%;
+      background: #333333;
+  }
+  .flex-columns{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-top: 6%;
+      align-items: flex-start;
+      min-height: 155px;
+      height: 100%;
+      border-bottom: 1px solid #494949;
+  }
+  .main-footer__contacts{
+      margin-left: 3%;
+  }
+  .main-footer__contacts__soc-networks__title{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .main-footer__contacts__messengers{
+      margin-top: 10%;
+  }
+  .main-footer__contacts__messengers__title{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .left-nav{
+      list-style-type: none;
+      margin-top: 0%;
+      margin-left: 6%;
+  }
+  .left-nav li{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 260%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .right-nav{
+    list-style-type: none;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+.right-nav li{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 260%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .contact-inf{
+      margin-left: 23.7%;
+      margin-top: 0.5%;
+  }
+  .contact-info__number{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  .contact-info__schedule{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: right;
+    color: #AAAAAA;
+  }
+  .contact-info__mail{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #009A9F;
+    margin-top: 12%;
+  }
+  .main-footer_lower{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 2%;
+  }
+  .main-footer_lower__wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-footer_lower__wrap__title{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: justify;
+    color: #C2C2C2;
+  }
+  .main-footer_lower__wrap__text{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: justify;
+    color: #C2C2C2;
+    margin-top: 2%;
+  }
+  .main-footer_lower_mtsite{
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #C2C2C2;
+    max-width: 180px;
+    width: 100%;
+    margin-left: 17%;
+    margin-top: 2%;
+  }
+  .main-footer_lower_mtsite-logo{
+    display: inline-flex;
+    height: 45px;
+    margin-top: 1.5%;
+  }
+  @media (min-width: 1401px) and (max-width: 1600px){
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .main-footer__contacts{
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+    }
+    .right-nav{
+      margin-left: 0%;
+  }
+  .contact-inf{
+    margin-left: 0%;
+}
+  }
+  @media (min-width: 1101px) and (max-width: 1400px){
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .main-footer__contacts{
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+    }
+    .right-nav{
+      margin-left: 0%;
+  }
+  .contact-inf{
+    margin-left: 0%;
+}
+  }
+  @media (min-width: 901px) and (max-width: 1100px){
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .main-footer__contacts{
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5%;
+        border-top: 1px solid #494949;
+        padding: 0px;
+    }
+    .right-nav{
+      margin-left: 0%;
+      display: flex;
+      flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px;
+  }
+  .contact-inf{
+    margin-left: 0%;
+}
+.main-footer_lower{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer_lower__wrap__title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower__wrap__text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower_mtsite{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
+  @media (min-width: 601px) and (max-width: 900px){
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .main-footer__contacts{
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5%;
+        border-top: 1px solid #494949;
+        padding: 0px;
+    }
+    .right-nav{
+      margin-left: 0%;
+      display: flex;
+      flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px;
+  }
+  .contact-inf{
+    margin-left: 0%;
+}
+.contact-info__schedule{
+    max-width: 130px;
+    width: 100%;
+    margin-left: 10%;
+}
+.main-footer_lower{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer_lower__wrap__title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower__wrap__text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower_mtsite{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
+  @media (min-width: 400px) and (max-width: 600px){
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    } 
+    .main-footer__contacts{
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5%;
+        border-top: 1px solid #494949;
+        padding: 0px;
+    }
+    .right-nav{
+      margin-left: 0%;
+      display: flex;
+      flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px;
+  }
+  .contact-inf{
+    margin-left: 0%;
+}
+.main-footer_lower{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer_lower__wrap__title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower__wrap__text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower_mtsite{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-info__schedule{
+    max-width: 130px;
+    width: 100%;
+    margin-left: 10%;
+}
+  }
+  @media (min-width: 200px) and (max-width: 399px){
+    .main-footer__logo{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .flex-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    } 
+    .main-footer__contacts{
+        margin-top: 8%;
+        margin-left: 0%;
+    }
+    .left-nav{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5%;
+        border-top: 1px solid #494949;
+        padding: 0px;
+    }
+    .right-nav{
+      margin-left: 0%;
+      display: flex;
+      flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px;
+  }
+  .contact-inf{
+    margin-top: 8%;
+    margin-left: 0%;
+}
+.main-footer_lower{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer_lower__wrap__title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower__wrap__text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer_lower_mtsite{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-info__schedule{
+    max-width: 130px;
+    width: 100%;
+    margin-left: 10%;
+}
+  }

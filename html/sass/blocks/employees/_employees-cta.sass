@@ -1,0 +1,34 @@
+.s-employees
+	&-cta
+		height: 409px
+		background-size: cover
+		background-position: top center
+		background-repeat: no-repeat	
+		background-image: url('../img/cta-bg-2.jpg')
+
+.employees	
+	&-cta
+		&__btn
+			margin-top: 30px
+		&__container
+			height: 100%
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+
+@media only screen and (max-width : 1199px)
+		
+	.s-employees		
+		&-cta
+			height: auto
+			background-position: top left
+
+@media only screen and (max-width : 767px)
+		
+	.s-employees		
+		&-cta
+			background-image: url('../img/cta-bg-2-mob.jpg')
+			background-position: 	top center

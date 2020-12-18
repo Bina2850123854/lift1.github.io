@@ -1,0 +1,56 @@
+.s-deadlines
+	padding-bottom: 40px
+
+.deadlines
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: center
+	margin-left: -15px
+	margin-right: -15px
+	flex-wrap: wrap
+	margin-top: 35px
+
+.deadline
+	display: inline-block
+	text-align: center
+	padding-left: 15px
+	padding-right: 15px
+	width: 20%
+	margin-bottom: 30px
+	&__image
+		width: 92px
+		height: 76px
+	&__title
+		font-size: 15px
+		+bold
+		color: $strong-color
+		margin-top: 10px
+	&__text
+		margin-top: 5px
+
+@media only screen and (max-width : 991px)	
+
+	.deadline
+		width: 33%
+
+@media only screen and (max-width : 767px)	
+
+	.s-deadlines
+		padding-bottom: 20px
+
+	.deadline
+		width: 50%
+
+@media only screen and (max-width : 575px)		
+
+	.deadline
+		&__title
+			font-size: 14px
+
+@media only screen and (max-width : 450px)		
+
+	.deadline
+		width: 80%

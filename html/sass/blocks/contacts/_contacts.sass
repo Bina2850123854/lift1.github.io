@@ -1,0 +1,154 @@
+.s
+	&-contacts
+		position: relative
+		padding: 85px 0 115px
+
+.ymaps-2-1-75-balloon	
+  box-shadow: 0px 14px 43px 0px rgba(0, 0, 0, 0.2)!important
+  border-radius: 10px
+  left: 50%!important
+  transform: translateX(-50%)
+  top: auto!important
+  bottom: 70px
+  width: 215px!important
+   
+.ymaps-2-1-75-balloon__layout
+	border-radius: 10px
+
+.ymaps-2-1-75-balloon__content
+	margin-right: 0!important
+	padding: 30px 50px 30px 30px!important	
+
+.ymaps-2-1-75-balloon__tail
+	left: 50%!important	
+	margin-left: -10px!important
+  	
+.map	
+	position: absolute
+	top: 0
+	height: 100%
+	left: 0
+	width: 100%
+	&-popup
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: flex-start		
+		&__icon
+			flex-shrink: 0
+			margin-right: 10px
+		&__text
+			color: #666
+			font-size: 13px
+			letter-spacing: 0.025em	
+.contacts	
+	background-color: #fff
+	display: inline-block
+	width: 460px
+	padding: 40px 35px
+	position: relative
+	z-index: 2
+	&__header
+		margin-bottom: 25px
+	&__social-icons
+		margin-top: 10px
+	&__btn
+		margin-top: 40px
+
+.contact
+	position: relative
+	padding-left: 25px
+	margin-left: 5px
+	line-height: 1.4
+	margin-bottom: 16px
+	&:last-child
+		margin-bottom: 0
+	&__phone
+		color: $strong-color
+		display: inline		
+		transition: color .3s		
+		&:hover
+			color: $accent-color
+	a
+		transition: color .3s, background-color .3s
+		&:hover
+			color: $accent-color
+	&__title
+		+bold
+		font-size: 15px
+		color: $strong-color
+		line-height: 1.33
+		margin-bottom: 5px
+	&__icon		
+		text-align: left
+		position: absolute
+		left: 0
+		top: 3px
+
+@media only screen and (max-width : 1199px)	
+
+	.s-contacts
+		padding: 80px 0
+
+@media only screen and (max-width : 991px)	
+
+	.s-contacts
+		padding: 50px 0
+
+	.contacts
+		width: 350px
+		padding: 30px
+
+@media only screen and (max-width : 767px)	
+
+	.s-contacts
+		padding: 0
+		border-bottom: 1px solid #f5f5f5
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+
+	.contacts
+		width: 100%
+		padding-left: 15px
+		padding-right: 15px
+		text-align: center		
+		&__header
+			text-align: left
+		&__container
+			max-width: 100%
+			padding-left: 0
+			padding-right: 0
+			padding-bottom: 20px
+			order: 0
+		&-block
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+			text-align: left
+
+	.contact
+		width: 45%
+
+	.map
+		height: 350px
+		position: relative
+		order: 1		
+
+@media only screen and (max-width : 575px)	
+
+	.contact
+		width: 100%
+		font-size: 14px
+
+	.contacts
+		text-align: left

@@ -1,0 +1,53 @@
+.s-about
+	padding-bottom: 70px
+
+.about
+	&__tizers
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		margin-top: 35px
+		margin-left: -15px
+		margin-right: -15px
+		.tizers__tab
+			padding: 0
+			margin-left: 15px
+			margin-right: 15px
+			margin-bottom: 30px
+			height: auto
+			.tizer__text
+				margin-top: 5px
+			.tizer__image
+				width: 110px			
+			&:hover
+				border-color: transparent
+	&__seo
+		text-align: center
+		margin-top: 20px
+		.content__images
+			margin-top: 65px
+			margin-bottom: 0
+
+@media only screen and (max-width : 1199px)	
+
+	.about
+		&__seo
+			br
+				display: none
+
+@media only screen and (max-width : 767px)
+
+	.s-about
+		padding-bottom: 50px	
+
+@media only screen and (max-width : 575px)	
+
+	.about
+		&__seo
+			text-align: left
+			.content__images
+				margin-top: 30px

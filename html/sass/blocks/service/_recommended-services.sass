@@ -1,0 +1,113 @@
+.s-recommended-services	
+	text-align: center
+
+.recommended-services	
+	margin-top: 60px
+	text-align: left
+	border: 0
+	border: 1px solid $border-color		
+	position: relative
+	&:after
+		position: absolute
+		right: calc(50% - 1px)
+		width: 1px
+		top: 0
+		bottom: 0
+		background-color: $border-color
+		content: ''
+	&__btn
+		margin-top: 40px
+	.service		
+		border: 0		
+		width: 640px!important
+		height: 100%	
+		&:hover	
+			box-shadow: none
+	&__slider-arrows
+		position: absolute		
+		top: 50%
+		margin-top: -9px
+		left: 50%
+		right: 50%
+		.back
+			margin-left: -685px
+		.next
+			margin-right: -685px
+
+@media only screen and (max-width : 1309px)	
+	
+	.recommended-services	
+		width: 1140px
+		margin-left: auto
+		margin-right: auto
+		.service
+			width: 570px!important	
+		&__slider-arrows
+			.back
+				margin-left: -600px
+			.next
+				margin-right: -600px
+
+@media only screen and (max-width : 1199px)	
+	
+	.recommended-services	
+		width: 900px
+		.service
+			width: 450px!important	
+		&__slider-arrows
+			.back
+				margin-left: -480px
+			.next
+				margin-right: -480px
+
+@media only screen and (max-width : 991px)	
+	
+	.recommended-services	
+		width: 690px
+		.service
+			width: 345px!important	
+		&__slider-arrows
+			.back
+				margin-left: -380px
+			.next
+				margin-right: -380px
+
+@media only screen and (max-width : 767px)	
+	
+	.recommended-services	
+		width: 100%
+		border: 0
+		&:after
+			display: none
+		&__slide
+			margin: 0px 10px
+		.service
+			width: 100%!important
+			border: 1px solid $border-color	
+		&__container
+			max-width: 100%
+			padding-left: 0
+			padding-right: 0	
+		&__slider-arrows
+			display: none
+
+@media only screen and (max-width : 575px)	
+	
+	.recommended-services	
+		&__slide
+			margin: 0 5px
+		.service
+			padding-left: 15px
+			padding-right: 15px
+			&__text
+				font-size: 13px
+
+
+@media only screen and (min-width : 1200px)
+
+	.recommended-services	
+		.service
+			&:hover
+				box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05)
+	
+

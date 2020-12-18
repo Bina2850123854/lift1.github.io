@@ -1,0 +1,121 @@
+.hero
+	height: 660px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: bottom center
+	&__container
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		height: 100%
+		padding-top: 175px
+		position: relative
+		z-index: 2
+	&-block
+		color: $strong-color
+		padding-left: 70px
+		max-width: 680px
+	&__title
+		font-weight: normal
+		margin: 0
+		+bold
+		font-size: 40px
+		color: $strong-color
+		line-height: 1.2
+		&_white
+			color: #fff
+	&__description
+		margin-top: 15px
+		&_white
+			color: #fff
+	&__btns
+		margin-left: -10px
+		margin-right: -10px
+		margin-top: 50px
+	&__btn
+		margin: 0 10px
+
+@media only screen and (max-width : 1199px)	
+
+	.hero
+		height: 550px
+		background-position: bottom right 42%
+		&__container
+			padding-top: 80px
+		&-block
+			padding-left: 0
+			max-width: 60%
+
+@media only screen and (max-width : 991px)	
+
+	.hero
+		background-position: bottom right 32%
+		&-block
+			max-width: 45%
+		&__btns
+			flex-direction: row
+			margin-top: 30px
+			margin-left: 0
+			margin-right: 0
+			.btn
+				margin: 5px 0
+				width: 215px
+
+
+@media only screen and (max-width : 767px)	
+
+	.hero
+		height: auto
+		padding: 50px 0	50%
+		background-image: url("../img/hero-pic.png")!important
+		background-size: 70%
+		background-position: bottom center
+		background-color: #f4f4f7
+		&-block
+			max-width: 100%
+		&__btns			
+			margin-left: -10px
+			margin-right: -10px
+			flex-direction: row
+			.btn
+				width: auto
+				margin: 0 10px
+
+@media only screen and (max-width : 575px)	
+
+	.hero				
+		padding-top: 30px
+		&__title
+			font-size: 32px
+		&__description
+			font-size: 14px
+		&__btns
+			margin-left: -5px
+			margin-right: -5px
+			.btn				
+				padding: 0 15px
+				margin-left: 5px
+				margin-right: 5px
+
+@media only screen and (max-width : 400px)	
+
+	.hero		
+		&__btns
+			margin-left: 0
+			margin-right: 0
+			flex-direction: column
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: flex-start
+			.btn				
+				padding: 0 30px
+				width: 215px
+				margin: 0 0	10px
+
+		

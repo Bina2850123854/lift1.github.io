@@ -1,0 +1,171 @@
+.s-services
+	text-align: center
+
+.services
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-wrap: wrap
+	border-top: 1px solid $border-color
+	text-align: left
+	margin-top: 65px
+	&__btn
+		margin-top: 40px
+
+.service
+	width: 50%
+	border: 1px solid $border-color
+	border-top: none
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	padding: 35px 30px 33px 0	
+	cursor: pointer	
+	min-height: 235px
+	transition: box-shadow .3s
+	&:nth-child(2n+1)
+		border-right: none
+	&:hover	
+		box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05)
+		.service__icon
+			left: 20px
+		.service__fish
+			right: 19px
+		.service__mask
+			right: -30px
+
+	&_full-width
+		width: 100%
+		border-right: 1px solid $border-color!important	
+	&__image
+		width: 210px
+		height: 130px
+		flex-shrink: 0
+		position: relative
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		overflow: hidden
+		top: 20px
+	&__mask
+		position: absolute
+		right: 0
+		top: -15px
+		transition: .3s right		
+	&__fish
+		position: absolute
+		z-index: -1
+		top: 0
+		right: 49px
+		transition: right .3s
+	&__icon
+		position: relative
+		left: 50px
+		transition: left .3s			
+		top: 5px
+	&__head
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+	&__title
+		font-size: 15px
+		+bold
+		color: $strong-color
+		display: inline-block
+		margin-right: 10px
+		line-height: 1.33
+		transition: color .3s
+		&:hover
+			color: $accent-color
+	&__text
+		margin-top: 10px
+	&__foot
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		margin-top: 5px
+	&__price
+		color: $strong-color
+		+bold
+		font-size: 18px
+		white-space: nowrap
+	&__cms-block
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		margin-left: -5px
+		margin-right: -5px
+		margin-left: 25px
+	&__cms
+		margin: 0 5px
+	&__more
+		margin-top: 5px
+	&__count
+		margin-left: 30px
+	&__count-val
+		font-size: 18px
+		color: $accent-color
+		+bold 
+
+.all-services
+	&__services
+		padding-bottom: 80px
+
+@media only screen and (max-width : 1199px)	
+
+	.service
+		&__head
+			flex-direction: column
+			align-items: flex-start
+		&__label
+			margin-top: 10px
+		&__foot
+			flex-direction: column
+			align-items: flex-start
+		&__cms-block
+			margin-left: -3px
+			margin-top: 5px
+		&__count
+			margin-left: 0
+
+@media only screen and (max-width : 991px)	
+
+	.service
+		flex-direction: column	
+		align-items: center
+		padding: 10px 30px 30px
+		&__info
+			margin-top: 40px
+
+@media only screen and (max-width : 767px)	
+
+	.services
+		flex-direction: column
+
+	.service
+		width: 100%
+		align-items: center
+		&:nth-child(2n+1)
+			border-right: 1px solid $border-color
+
+@media only screen and (max-width : 575px)
+
+	.service
+		&__text
+			font-size: 14px	

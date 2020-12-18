@@ -1,0 +1,810 @@
+@media (min-width: 1025px) and (max-width: 1405px){
+  .intro{
+    height: 100vh;
+  }
+  
+  .request {
+    width: 210px;
+    height: 50px;
+    background: #009a9f;
+    box-shadow: 0px 11px 30px rgba(0, 154, 159, 0.3),
+      inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 45px;
+    margin-top: 43px;
+    margin-left: 10px;
+    font-family: TTDrugs;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 60%;
+    color: white;
+  }
+  .service__more p{
+    font-size: 11px;
+    height: auto;
+}
+.service__more a{
+    font-size: 13px;
+    margin-top: 0%;
+}
+.cards__item{
+  width: 230px;
+  min-height: 150px;
+  height: 100%;
+  border-radius: 10px;
+  margin-left:0.5%;
+  margin-right: 0.5%;
+}
+.cards{
+width: 70%;
+}
+.cards__item:first-child{
+  margin-left:0%;
+  margin-right: 0%;
+}
+.cards__item:last-child{
+  margin-left:0%;
+  margin-right: 0%;
+}
+.about-company-container{
+  background: #E5E5E5;
+  width:80%;
+  margin: auto;
+}
+.about-company__text{
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.about-company__image{
+  margin: auto;
+}
+.about-company__item{
+  width:33%;
+    min-height: 280px;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.about-company__item__image{
+  width: 68px;
+  height: auto;
+  margin-top: 2%;
+  margin-left: auto;
+margin-right: auto;
+}
+.about-company__item__title{
+font-family: TTDrugsBold;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #454545;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+text-align: center;
+}
+.about-company__item__text{
+font-family: TTDrugs;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 178.5%;
+color: #454545;
+max-width: 270px;
+width: 100%;
+margin-top: 6%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .intro{
+        width: 100%;
+        min-height: 1710px;
+        background: white;
+    }
+    .header{
+        height: auto;
+        background-image: url(/Users/AST/Desktop/media\ max/img/background.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    header{
+        display: inline-flex;
+        width: 100%;
+        min-height: 140px;
+        height: 100%;
+    }
+    .logo{
+        width: 13%;
+        height: 60px;
+        margin-left: 13%;
+        padding-top: 31px;
+    }
+    nav{
+        display: none;
+    }
+    .contact-info{
+        max-width: 24%;
+        width: 100%;
+        height: 40px;
+        margin-left: 3%;
+        padding-top: 42px;
+    }
+    .contact-info h4{
+        margin-top: 0px;
+        margin-left: 19px;
+        font-family: TTDrugsBoldest;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 15px;
+        line-height: 60%;
+        color: white;
+    }
+    .contact-info p{
+        font-family: TTDrugs;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 60%;
+        margin-top: -10px;
+        color: #9D9D9D;
+        margin-left: 17px;
+    }
+    .request{
+        margin-top: 33px;
+        margin-left: 3%;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        width: 100%;
+        min-height: 420px;
+        height: 100%;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description h5{
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .description h1{
+        margin-top: -32px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .description p{
+        margin-top: -7px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .review{
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 17px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    #menu__toggle {
+        opacity: 0;
+      }
+      .menu__btn {
+        display: flex;
+        align-items: center; 
+        position: relative;
+        top: 20px;
+        left: 150%;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #009A9F;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #333;
+        box-shadow: 0px 18px 45px rgba(0, 154, 159, 0.51), inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+      }
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: white;
+        font-family: TTDrugsBold;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .menu__item:hover {
+        background-color: #222;
+      }
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+      .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+.service {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  min-height: 750px;
+  height: 100%;
+}
+.service__list {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+.service__item {
+  width: 33%;
+  height: auto;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+.service__image {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 11%;
+}
+.service__button {
+  font-family: TTDrugsBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  height: 15%;
+  background: #009a9f;
+  box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 45px;
+  margin-top: 4.5%;
+  padding: 15px 25px;
+  margin-bottom: 7%;
+}
+.service__more{
+  width: 33%;
+  height: auto;
+}
+.service__more p{
+  font-size: 11px;
+  height: 150px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.service__more a{
+  margin-bottom: 10%;
+  margin-top: 0px;
+  font-size: 13px;
+}
+.cards{
+  height: auto;
+  margin: auto;
+  width: 90%;
+}
+.cards__item{
+  width: 320px;
+  margin-bottom: 0px;
+  min-height: 180px;
+  height: 100%;
+}
+.cards__item:nth-child(2n) {
+  margin-right: auto;
+  }
+  .cards__item:nth-child(2n+1){
+    margin-left: auto;
+  }
+.cards:nth-child(n + 2) .cards__item{
+  margin-top: 4%;
+}
+.cards__image{
+  width:100%;
+  height:100%;
+}
+.cards__item--text{
+  width:100%;
+    height: auto;
+}
+.service-2 h2{
+  font-size: 30px;
+  height: 100%;
+  width: 50%;
+}
+.service-2 p{
+  font-size: 18px;
+  max-width: 400px;
+  width: 100%;
+}
+.about-company__text{
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.about-company__image{
+  margin: auto;
+}
+.about-company__item{
+  width:33.3%;
+    min-height: 280px;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.about-company__item__image{
+  width: 68px;
+  height: auto;
+  margin-top: 2%;
+  margin-left: auto;
+margin-right: auto;
+}
+.about-company__item__title{
+font-family: TTDrugsBold;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #454545;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+text-align: center;
+}
+.about-company__item__text{
+font-family: TTDrugs;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 178.5%;
+color: #454545;
+max-width: 270px;
+width: 100%;
+margin-top: 6%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+}
+@media (max-width: 599px){
+  .intro{
+    width: 100%;
+    min-height: 1050px;
+    height: 100%;
+    background: #E5E5E5;
+}
+.header{
+    min-height: 650px;
+    height: 100%;
+    background-image: url(/Users/AST/Desktop/media\ max/img/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+header{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 140px;
+    height: 100%;
+}
+.logo{
+  width: 17%;
+  height: 40px;
+  margin-left: 10%;
+  padding-top: 31px;
+}
+nav{
+  display: none;
+}
+.contact-info{
+  display:none;
+}
+.request{
+  max-width: 120px;
+  max-height: 37px;
+  width: 100%;
+  background: #009A9F;
+  box-shadow: 0px 11px 30px rgba(0, 154, 159, 0.3), inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 45px;
+  margin-top: 31px;
+  margin-left: 5%;
+  font-family: TTDrugs;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 60%;
+  color: white;
+}
+.call{
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding-top: 35px;
+  margin-left: 5%;
+}
+.hamburger-menu{
+  display: block;
+}
+#menu__toggle {
+  opacity: 0;
+}
+.menu__btn {
+  display: flex;
+  align-items: center; 
+  position: relative;
+  top: 14px;
+  left: 100%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #009A9F;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #333;
+  box-shadow: 0px 18px 45px rgba(0, 154, 159, 0.51), inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: white;
+  font-family: TTDrugsBold;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #222;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+transition-duration: .25s;
+}
+.menu__box {
+transition-duration: .25s;
+}
+.menu__item {
+transition-duration: .25s;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  width: 100%;
+  min-height: 420px;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description h5{
+  font-size: 20px;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.description h1{
+  width: 90%;
+  font-size: 28px;
+  margin-top: -22px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+.description p{
+  font-size: 13px;
+  margin-top: -7px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+.review{
+  width: 220px;
+height: 50px;
+margin-top: 17px;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+font-size: 15px;
+}
+.service {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  min-height: 550px;
+  height: auto;
+}
+.service__list {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+.service__item {
+  width: 50%;
+  height: auto;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+.service__image {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 11%;
+}
+.service__button {
+  font-family: TTDrugsBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  height: 15%;
+  background: #009a9f;
+  box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 45px;
+  margin-top: 4.5%;
+  padding: 10px 15px;
+  margin-bottom: 7%;
+}
+.service__more{
+  width: 50%;
+  height: auto;
+}
+.service__more p{
+  font-size: 6.3px;
+  height: 90px;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.service__more a{
+  margin-bottom: 10%;
+  margin-top: 0px;
+  font-size: 8px;
+}
+.service-2 h2{
+  font-size: 26px;
+  height: 100%;
+  width: 50%;
+  margin-top: 20%;
+}
+.service-2 p{
+  font-size: 13px;
+  max-width: 300px;
+  width: 100%;
+}
+.cards{
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+.cards__item{
+  width: 150px;
+  margin-bottom: 0px;
+  min-height: 100px;
+  height: 100%;
+}
+.cards__item:nth-child(2n) {
+  margin-right: auto;
+  }
+  .cards__item:nth-child(2n+1){
+    margin-left: auto;
+  }
+.cards:nth-child(n + 2) .cards__item{
+  margin-top: 0%;
+}
+.cards__image{
+  width:100%;
+  height:100%;
+}
+.cards__item--text{
+  width:100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.about-company-container{
+  background: #E5E5E5;
+  width:100%;
+  margin-top: 10%;
+}
+.about-company__title{
+  font-size: 26px;
+}
+.about-company__text{
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 13px;
+  text-align: center;
+}
+.about-company__image{
+  margin: auto;
+}
+.about-company__item{
+  width:100%;
+    min-height: 280px;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.about-company__item__image{
+  width: 58px;
+  height: auto;
+  margin-top: 0%;
+  margin-left: auto;
+margin-right: auto;
+}
+.about-company__item__title{
+font-family: TTDrugsBold;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 130%;
+color: #454545;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+text-align: center;
+}
+.about-company__item__text{
+font-family: TTDrugs;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 178.5%;
+color: #454545;
+max-width: 270px;
+width: 100%;
+margin-top: 6%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-bottom: 10%;
+}
+}
+@media (max-width: 1787px){
+  header {
+    display: inline-flex;
+    width: 100%;
+    min-height: 140px;
+    height: 100%;
+    justify-content: space-between;
+  }
+  nav {
+    margin-left: 0%;
+  }
+}

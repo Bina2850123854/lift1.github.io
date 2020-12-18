@@ -1,0 +1,30 @@
+.works
+	&-slider	
+		position: relative
+		margin-top: -25px
+		.work
+			margin-top: 30px
+			margin-bottom: 30px			
+			&:hover
+				box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .05)
+	&__slider-arrows
+		position: absolute
+		display: none
+		top: 50%		
+		margin-top: -9px
+		left: -40px
+		right: -40px
+		&.visible
+			display: block
+
+@media only screen and (max-width : 767px)
+
+	.works
+		&__slider-arrows			
+			&.visible
+				display: none!important
+		&-slider	
+			&__container
+				padding-left: 0
+				padding-right: 0
+				max-width: 100%		

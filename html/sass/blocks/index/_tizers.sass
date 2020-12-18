@@ -1,0 +1,187 @@
+.tizers
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: flex-start
+	margin-top: 15px
+	&__slider-arrows
+		display: none
+	&__tabs
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-wrap: wrap
+		flex-shrink: 0
+		width: 655px
+		margin-top: 45px
+	&__tab
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex	
+		width: 296px
+		height: 145px
+		margin-right: 30px
+		margin-top: 15px
+		border: 1px solid transparent
+		align-items: center
+		padding-left: 15px
+		transition: border-color .3s		
+	&__content
+		margin-top: 60px
+		background-color: #f9f9fa	
+		border: 1px solid #f5f5f5
+		padding: 40px 40px 30px 	
+	&__cnt
+		opacity: 0
+		display: none
+		transition: opacity .3s
+		padding-right: 30px
+		&_visible
+			opacity: 1
+		&_current
+			display: block
+		&-title
+			+bold
+			color: $strong-color
+			line-height: 1.2
+			font-size: 22px
+			position: relative
+			padding-bottom: 17px
+			&:after
+				position: absolute
+				content: ''
+				display: block
+				bottom: 0
+				left: 0
+				width: 64px
+				height: 3px
+				background-color: $accent-color
+		&-text
+			display: block
+			margin-top: 20px
+
+.tizer
+	&__image
+		flex-shrink: 0
+		width: 100px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		img
+			max-width: 90px
+	&__title
+		font-size: 15px
+		+bold
+		color: $strong-color
+		line-height: 1.33
+	&__text
+		line-height: 1.2
+		margin-top: 5px
+
+.index-tizers
+	&__tab
+		&:hover,
+		&_current
+			border-color: $accent-color
+
+@media only screen and (max-width : 1309px)	
+
+	.tizers
+		&__cnt
+			padding-right: 0
+
+@media only screen and (max-width : 1199px)	
+
+	.tizers
+		&__tabs
+			flex-direction: column
+			width: auto
+		&__tab
+			height: 100px
+		&__cnt
+			width: 100%
+
+@media only screen and (max-width : 767px)	
+	
+	.tizers
+		flex-direction: column
+		position: relative		
+		align-items: center
+		&__content
+			padding: 30px
+			margin-top: 40px	
+			width: 510px	
+
+	.tizers-slider__container
+		max-width: 100%
+		padding-left: 0
+		padding-right: 0
+
+	.index-tizers
+		&__tabs
+			display: block
+			width: 100%
+			margin-top: 40px
+		&__tab			
+			margin: 0
+			padding: 15px
+			height: auto				
+			margin: 0 20px
+			position: relative
+			border: 1px solid $accent-color
+			.tizer__image
+				width: 20%
+				display: inline-block
+				top: 50%
+				position: absolute
+				transform: translateY(-50%)
+				img
+					width: 100%
+			.tizer__info
+				display: inline-block
+				top: 50%
+				position: relative
+				transform: translateY(-50%)
+				padding-left: 20%
+				padding-right: 5px
+				margin-left: 20px
+			.tizer__title
+				font-size: 14px
+			.tizer__text
+				font-size: 13px
+
+
+@media only screen and (max-width : 575px)	
+
+	.tizers
+		&__content
+			width: 100%
+			background-color: transparent
+			border: 0
+			padding: 0 20px
+		&__cnt
+			background-color: #f9f9fa			
+			border: 1px solid #f5f5f5
+			padding: 20px
+		&__cnt-title
+			font-size: 18px
+		&__cnt-text
+			font-size: 14px
+
+	.index-tizers
+		&__tab			
+			margin: 0 10px
+
+@media only screen and (max-width : 400px)	
+
+	.index-tizers
+		&__tab			
+			margin: 0 5px

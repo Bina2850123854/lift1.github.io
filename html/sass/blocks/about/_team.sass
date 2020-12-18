@@ -1,0 +1,158 @@
+.s-team
+	text-align: center
+
+.team
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: flex-start	
+	justify-content: center
+	flex-wrap: wrap
+	margin-left: -15px
+	margin-right: -15px
+	text-align: left
+	margin-top: 50px	
+	&__btn
+		margin-top: 10px
+
+.employee
+	display: inline-block
+	width: 296px
+	height: 422px
+	position: relative
+	overflow: hidden
+	padding: 30px
+	margin-right: 15px
+	margin-left: 15px
+	margin-bottom: 30px
+	&:after
+		position: absolute			
+		content: ''
+		display: block
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0		
+		background: url('../img/employee-shadow.png') bottom center no-repeat
+		background-size: cover
+		z-index: 0
+		opacity: .7
+		transition: opacity .5s
+	&:hover
+		&:after
+			opacity: .4
+		.employee
+			&__label
+				transition: .3s
+				background-color: #fff
+				border-color: #fff
+				color: $accent-color
+	img
+		position: absolute
+		top: 0
+		height: 100%
+		left: 0
+		width: 100%
+		object-fit: cover			
+	&__info
+		position: relative
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+		justify-content: flex-end
+		height: 100%
+		position: relative
+		z-index: 2
+	&__name
+		font-size: 15px	
+		color: #fff
+		+bold
+		line-height: 1.2
+		transition: .3s
+		text-decoration: underline transparent
+		&:hover
+			text-decoration-color: #fff
+	&__job
+		font-size: 13px
+		color: rgba(#fff, .7)
+		line-height: 1.2
+		margin-top: 10px
+	&__label
+		margin-top: 35px
+
+@media only screen and (max-width : 1309px)	
+
+	.employee
+		width: 265px
+		height: 375px
+
+@media only screen and (max-width : 1199px)	
+
+	.team
+		margin-right: -10px
+		margin-left: -10px
+
+	.employee
+		width: 216px
+		height: 308px
+		margin-right: 10px
+		margin-left: 10px
+		margin-bottom: 20px
+		padding: 20px
+		&__label
+			margin-top: 25px
+		&__job
+			margin-top: 5px
+		&:after
+			opacity: .4
+
+@media only screen and (max-width : 991px)
+
+	.employee
+		width: 245px
+		height: 350px
+
+@media only screen and (max-width : 575px)
+
+	.team
+		margin-top: 30px
+		margin-left: -2%
+		margin-right: -2%
+
+	.employee
+		width: 46%
+		height: 0
+		margin-left: 2%
+		margin-right: 2%
+		margin-bottom: 20px
+		padding: 10px 10px 65%
+		&__info
+			position: absolute
+			bottom: 7%
+			left: 7%
+			right: 7%	
+
+@media only screen and (max-width : 480px)
+
+	.employee
+		margin-bottom: 15px
+		&__name
+			font-size: 13px	
+		&__job
+			font-size: 11px
+			margin-top: 5px
+		&__label
+			margin-top: 15px
+
+@media only screen and (max-width : 400px)
+
+	.employee
+		margin-bottom: 12px
+
+

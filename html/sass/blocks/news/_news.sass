@@ -1,0 +1,157 @@
+.s-news
+	padding-top: 50px
+
+.news
+	&__pagination
+		margin-top: 30px
+	&-grid
+		margin-left: -15px
+		margin-right: -15px
+		&__news
+			float: left
+			margin: 0 15px 30px
+			.news__subtitle
+				display: none				
+			&:nth-child(1)
+				width: 625px
+				margin-bottom: 0
+				.news__subtitle
+					display: block
+					margin-top: 15px					
+				.news__info
+					position: relative
+					height: 100%	
+				.news__image
+					min-height: 420px!important
+					margin-bottom: 20px
+				.news__title
+					font-size: 27px
+				.news__more
+					bottom: 0px
+					left: 30px
+					position: absolute
+
+@media only screen and (max-width : 1309px)	
+
+	.news-grid
+		&__news
+			width: 270px	
+			&:nth-child(1)
+				width: 570px	
+
+@media only screen and (max-width : 1199px)	
+
+	.news
+		&-grid
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: center
+			flex-wrap: wrap
+			margin-left: -10px
+			margin-right: -10px
+			&__news
+				width: 296px	
+				margin-left: 10px
+				margin-right: 10px
+				margin-bottom: 20px
+				&:nth-child(1)
+					width: 296px	
+					margin-bottom: 20px
+					flex-shrink: 0
+					.news__subtitle
+						display: none
+					.news__image
+						width: 100%
+						min-height: 0!important
+						padding-bottom: 65%
+						height: 0	
+						margin-bottom: 30px
+						position: relative
+					.news__title
+						font-size: 15px
+					.news__more
+						bottom: auto
+						left: auto
+						position: relative
+
+@media only screen and (max-width : 1199px)	
+
+	.news
+		&-grid
+			&__news
+				width: 295px	
+				&:nth-child(1)
+					width: 295px						
+
+@media only screen and (max-width : 991px)	
+
+	.news
+		&-grid
+			&__news
+				width: 215px	
+				&:nth-child(1)
+					width: 215px	
+
+@media only screen and (max-width : 767px)	
+
+	.news
+		&-grid
+			margin-left: -10px
+			margin-right: -10px
+			&__news
+				width: 155px
+				margin: 0 10px 20px
+				padding-bottom: 15px
+				&:nth-child(1)
+					width: 155px
+					margin: 0 10px 20px
+					.news
+						&__image
+							margin-bottom: 15px
+						&__info
+							padding-left: 15px
+							padding-right: 15px
+						&__title
+							font-size: 14px
+				.news
+					padding-bottom: 15px
+					&__image
+						margin-bottom: 15px
+					&__info
+						padding-left: 15px
+						padding-right: 15px
+					&__title
+						font-size: 14px
+
+@media only screen and (max-width : 575px)	
+
+	.news
+		&__pagination
+			margin-top: 20px
+		&-grid
+			margin-left: 0
+			margin-right: 0
+			margin-top: 0px	
+			&__news
+				width: 100%
+				max-width: 297px
+				margin: 0 0 20px			
+				&:nth-child(1)
+					width: 100%
+					max-width: 297px
+					margin: 0 0 20px
+				.news__title
+					font-size: 15px
+					
+
+@media only screen and (max-width : 480px)	
+
+	.news
+		&-grid
+			&__news
+				max-width: 100%		
+				&:nth-child(1)
+					max-width: 100%		

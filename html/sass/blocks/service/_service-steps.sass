@@ -1,0 +1,126 @@
+.s-service-steps
+	padding-bottom: 40px
+
+.service-steps
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: flex-start
+	margin-top: 30px
+	&__list
+		counter-reset: ol-counter		
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-wrap: wrap
+		width: 660px
+		flex-shrink: 0
+		margin: 0
+		padding: 0
+		margin-top: 35px
+	&__item
+		list-style: none
+		+bold
+		color: $strong-color
+		position: relative
+		padding-left: 110px
+		margin-bottom: 35px
+		line-height: 1.33		
+		width: 50%
+		align-items: center
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		height: 77px
+		padding-right: 30px
+		&:before
+			content: 'Шаг'
+			font-size: 15px
+			color: #fff
+			+regular
+			position: absolute
+			z-index: 2
+			display: inline-block
+			width: 98px
+			height: 77px
+			left: 0
+			top: 0
+			padding-top: 17px
+			padding-left: 27px	
+			text-transform: uppercase
+		&:after
+			position: absolute			
+			color: #fff			
+			width: 98px
+			height: 77px
+			display: inline-block			
+			background: url('../img/step-bg.png') 0 0 no-repeat
+			left: 0
+			top: 0
+			padding-left: 27px			
+			counter-increment: ol-counter
+			content: "0" counter(ol-counter)
+			text-transform: uppercase
+			font-size: 32px
+			+bold
+			padding-top: 27px
+	&__text
+		background-color: #f9f9fa
+		padding: 25px 40px
+		border: 1px solid #f5f5f5
+		margin-top: 35px
+
+@media only screen and (max-width : 1199px)	
+
+	.s-service-steps
+		padding-bottom: 80px
+
+	.service-steps
+		flex-direction: column
+		&__list
+			width: 100%
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: center			
+		&__item
+			width: 40%
+			padding-right: 0
+		&__text
+			margin-top: 20px
+
+
+@media only screen and (max-width : 767px)	
+
+	.s-service-steps
+		padding-bottom: 50px
+
+	.service-steps
+		&__list
+			flex-direction: column
+			align-items: center
+		&__item
+			width: 50%
+		
+@media only screen and (max-width : 575px)	
+
+	.service-steps
+		margin-top: 10px
+		&__text
+			padding: 20px			
+			font-size: 14px
+		&__item
+			width: 100%
+			font-size: 13px
+			margin-bottom: 15px
+
+
+
+
+
+			

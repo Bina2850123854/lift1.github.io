@@ -1,0 +1,171 @@
+.s-service-reviews
+	background-color: #f9f9fa
+
+.reviews
+	&-slider
+		margin-top: 40px
+		position: relative
+	&__slider-arrows
+		position: absolute				
+		top: 125px
+		left: 50%
+		right: 50%
+		.back
+			margin-left: -685px
+		.next
+			margin-right: -685px
+	&__btns
+		margin-top: 60px
+		.btn
+			width: 215px
+
+.review
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	width: 1280px
+	margin-left: auto
+	margin-right: auto	
+	&__multimedia
+		width: 460px
+		height: 270px
+		display: inline-block
+		position: relative
+		flex-shrink: 0
+		margin-right: 30px
+		background-size: cover
+		background-position: center
+		img
+			position: absolute
+			top: 0
+			height: 100%
+			left: 0
+			width: 100%
+			object-fit: cover
+		&_certificate
+			width: 196px
+			height: 271px
+			border: 1px solid #f5f5f5
+	&__info
+		padding-left: 40px
+		padding-top: 15px		
+		position: relative			
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 20px
+			height: 15px
+			background: url('../img/quotes.png') 0 0 no-repeat
+			left: 0	
+	&__play
+		position: absolute
+		display: inline-block
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		width: 75px
+		height: 55px
+		&-icon
+			path
+				transition: all .3s
+		&:hover
+			.review__play-icon
+				path
+					opacity: 1
+					fill: #fff
+	&__name
+		+bold
+		color: $strong-color
+		font-size: 15px
+		line-height: 1.05
+	&__btn
+		padding: 0 20px
+		margin-top: 35px
+	&__date
+		font-size: 13px
+		line-height: 1
+		color: rgba($strong-color, .7)
+		margin-top: 12px
+	&__text
+		font-size: 15px
+		margin-top: 15px
+
+
+@media only screen and (max-width : 1339px)	
+
+	.review
+		width: 1100px
+
+	.reviews
+		&__slider-arrows
+			.back
+				margin-left: -590px
+			.next
+				margin-right: -590px
+
+@media only screen and (max-width : 1199px)	
+
+	.review
+		width: 900px
+		&__btn
+			margin-top: 20px
+
+	.reviews
+		&__slider-arrows
+			.back
+				margin-left: -490px
+			.next
+				margin-right: -490px
+
+@media only screen and (max-width : 991px)	
+
+	.review
+		width: 700px
+		flex-direction: column
+		align-items: center
+		&__multimedia
+			margin-right: 0
+			margin-bottom: 20px
+
+	.reviews
+		&__slider-arrows
+			left: 25px
+			right: 25px
+			.back
+				margin-left: 0
+			.next
+				margin-right: 0
+
+@media only screen and (max-width : 767px)	
+
+	.review
+		width: 100%
+		padding: 0 15px
+		&__info
+			padding-left: 0px	
+			padding-top: 30px
+			&:before
+				top: 0px
+		&__multimedia
+			width: 100%
+			height: 0
+			padding-bottom: 60%
+			&_certificate
+				width: 196px
+				height: 271px
+
+	.reviews
+		&__slider-arrows
+			display: none	
+		&__btns
+			margin-top: 45px
+
+@media only screen and (max-width : 575px)		
+
+	.review				
+		padding: 0 10px
+		&__text
+			font-size: 14px

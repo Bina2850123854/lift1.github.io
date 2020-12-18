@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="17.000002"
+   width="17"
+   version="1.1"
+   id="svg27264"
+   viewBox="0 0 17 17.000002"
+   role="img"
+   class="svg-inline--fa fa-phone fa-w-16"
+   data-icon="phone"
+   data-prefix="fas"
+   focusable="false"
+   aria-hidden="true">
+  <metadata
+     id="metadata27272">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs27270" />
+  <path
+     style="fill:#dbdce0;fill-opacity:1"
+     id="path27266"
+     d="m 16.382435,0.81713153 -3.453055,-0.79686 c -0.375188,-0.0863 -0.760336,0.10957 -0.913067,0.46151 L 10.422595,4.2004615 c -0.13945,0.32538 -0.04648,0.70721 0.229097,0.92966 l 2.012068,1.64685 C 11.468472,9.3235915 9.3800378,11.441912 6.780286,12.660442 L 5.1334445,10.648372 C 4.9076679,10.372792 4.52916,10.279822 4.2037759,10.419272 l -3.7186743,1.59372 c -0.35526621,0.15605 -0.55116066,0.5412 -0.4648343,0.91639 l 0.79685879,3.45305 c 0.0830061,0.35859 0.40174961,0.61757 0.77693731,0.61757 C 10.097211,17.000002 17,10.110492 17,1.5940615 17,1.2222015 16.744341,0.90013153 16.382435,0.81713153 Z" />
+</svg>

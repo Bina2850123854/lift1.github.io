@@ -1,0 +1,178 @@
+.s-review-form
+	background-image: url('../img/review-form-bg.jpg')
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: top center
+	text-align: right
+
+.review-form
+	display: inline-block
+	width: 790px
+	padding: 45px 40px
+	background-color: #fff
+	text-align: left
+	.persondata
+		margin-top: 15px
+	&__btn
+		width: 100%
+		margin-top: 30px
+	.input
+		margin-bottom: 20px
+		width: 100%
+		&_textarea
+			height: 100%
+			width: 340px
+	&-block
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		width: 100%
+		margin-top: 25px
+	&__inputs
+		display: inline-block		
+		margin-left: 17px
+		margin-right: 17px
+		width: 340px
+
+.file-upload
+	&__row
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 100%
+	&__success
+		height: 40px
+		line-height: 40px
+		display: block
+		width: 165px	
+		margin-right: 10px
+		border-radius: 3px
+		background-color: #fff	
+		border: 1px solid $border-color		
+		font-size: 12px
+		padding: 0px 18px
+		color: #999
+		line-height: 1
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		overflow: hidden
+	&__btn
+		width: 155px
+		padding: 0 10px
+		flex-shrink: 0
+		height: 40px
+		line-height: 38px
+		font-size: 15px
+		+regular
+	&__input
+		display: none
+	&__note
+		font-size: 11px
+		line-height: 1
+		color: #999
+		margin-top: 7px
+		display: block
+
+@media only screen and (max-width : 991px)	
+
+	.s-review-form
+		background-image: url('../img/review-form-bg-mob.jpg')
+
+	.review-form
+		width: 100%
+		&-block
+			justify-content: space-between
+		.form-title
+			text-align: center
+		&__inputs
+			width: 48%
+			margin-left: 0
+			margin-right: 0
+		.input		
+			width: 100%	
+			&_textarea				
+				width: 100%
+
+	.file-upload
+		&__success
+			min-width: 48%			
+		&__btn			
+			width: 48%
+
+@media only screen and (max-width : 767px)	
+
+	.review-form
+		position: relative
+		padding-bottom: 140px
+		&__btn
+			position: absolute
+			left: 40px
+			right: 40px
+			width: auto
+			bottom: 40px
+		.persondata
+			position: absolute
+			left: 40px
+			right: 40px
+			width: auto
+			bottom: 110px
+		&-block
+			flex-direction: column
+		&__inputs
+			width: 100%
+			.input
+				&_textarea
+					height: 150px
+					margin-top: 20px
+
+@media only screen and (max-width : 575px)	
+
+	.review-form
+		padding: 30px 20px 140px
+		.input
+			margin-bottom: 15px
+		.form-title
+			font-size: 20px
+		&__btn
+			left: 20px
+			right: 20px
+			bottom: 30px
+		.persondata
+			left: 20px
+			right: 20px
+			bottom: 100px
+		&__inputs
+			.input
+				&_textarea
+					height: 200px
+
+@media only screen and (max-width : 375px)	
+
+	.file-upload
+		&__row
+			flex-direction: column
+			align-items: flex-start
+			justify-content: flex-start
+		&__success
+			width: 100%
+			margin-bottom: 0
+		&__btn
+			width: 100%
+			margin-top: 15px
+		.persondata
+			font-size: 9px
+
+	.review-form		
+		padding-bottom: 160px
+

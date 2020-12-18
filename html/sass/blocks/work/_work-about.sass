@@ -1,0 +1,43 @@
+.work-about
+	&-block
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-top: 35px
+	&__image
+		flex-shrink: 0
+		margin-right: 30px
+		width: 180px
+		height: 180px
+		border-radius: 50%
+		overflow: hidden
+		object-fit: cover
+	&__text
+		margin-top: -10px
+
+@media only screen and (max-width : 767px)
+
+	.work-about
+		&-block
+			align-items: flex-start
+
+@media only screen and (max-width : 575px)
+
+	.work-about
+		&-block
+			flex-direction: column
+		&__image
+			margin-bottom: 25px
+			margin-right: 0
+		&__text
+			font-size: 14px
+
+@media only screen and (max-width : 375px)
+
+	.work-about
+		&-block
+			align-items: center

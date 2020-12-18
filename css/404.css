@@ -1,0 +1,63 @@
+header{
+    background: #454545;
+    height: auto;
+}
+body{
+    background: rgb(250, 248, 248);
+}
+.page-container{
+    display: flex;
+    flex-direction: column;
+}
+.not-found-page{
+    font-family: TTDrugsBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #3A3A3A;
+    padding-top: 15%;
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+}
+.main-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+.image-404{
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 1101px) and (max-width: 1400px){
+    .not-found-page{
+        padding-top: 25%;
+    }
+}
+@media (min-width: 901px) and (max-width: 1100px){
+    .not-found-page{
+        padding-top: 35%;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px){
+    .not-found-page{
+        padding-top: 35%;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px){
+    .not-found-page{
+        padding-top: 35%;
+        width: 90%;
+    }
+}
+@media (max-width: 500px){
+    .not-found-page{
+        padding-top: 45%;
+        width: 90%;
+    }
+}
+
